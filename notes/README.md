@@ -12,11 +12,10 @@ Define method signatures with unambiguous parameter names and types.
 
     double calculateAverageSampleSize(unsigned long samples[], size_t size)
 
-## Show examples
+## Show example usage in comment block
 
     int samples[] = {1, 2, 3, 4, 5};
     double average = calculateAverageSampleSize(samples, 5);
-    printf("Average: %f\n", average);
 
 ## Naming Conventions
 Maintain consistent naming conventions for variables and functions.
