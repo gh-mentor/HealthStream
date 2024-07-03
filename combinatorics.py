@@ -22,18 +22,5 @@ class Combinatorics:
                 result *= i
             return result
 
-    @staticmethod
-    def perm(n, r):
-        """
-        Calculate the number of permutations of n objects taken r at a time.
-
-        Parameters:
-        n (int): The total number of objects.
-        r (int): The number of objects taken at a time.
-
-        Returns:
-        int: The number of permutations of n objects taken r at a time.
-        """
-        return Combinatorics.fact(n) // Combinatorics.fact(n - r)
     
 
