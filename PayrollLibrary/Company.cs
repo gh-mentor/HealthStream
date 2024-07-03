@@ -40,6 +40,12 @@ namespace PayrollLibrary
 
         public void AddDepartment(Department department)
         {
+
+            // verify that the departmen has an id
+            if (department.Id == 0)
+            {
+                throw new ArgumentException("Department must have an id");
+            }
             departments.Add(department);
         }
 
